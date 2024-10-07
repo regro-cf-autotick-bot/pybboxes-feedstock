@@ -1,5 +1,5 @@
 {% set name = "pybboxes" %}
-{% set version = "0.1.6" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pybboxes-{{ version }}.tar.gz
-  sha256: 558bfd2a7ca37def07ac95108f3b6504d728332b0c5b871df1017de5c7c1f68d
+  sha256: f34bcdff25aa05abbd501430cf25f42d9635c49727145671ac96b6d10e2c1faf
 
 build:
   noarch: python
